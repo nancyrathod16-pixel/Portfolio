@@ -23,7 +23,7 @@ function CursorParticles() {
     resize();
     window.addEventListener("resize", resize);
 
-    window.addEventListener("mousemove", (e) => {
+    const mouseMove = (e) => {
       for (let i = 0; i < 3; i++) {
         particles.push({
           x: e.clientX,
@@ -34,7 +34,9 @@ function CursorParticles() {
           life: 50,
         });
       }
-    });
+    };
+
+    window.addEventListener("mousemove", mouseMove);
 
     function animate() {
       ctx.clearRect(0, 0, canvas.width, canvas.height);
@@ -62,6 +64,8 @@ function CursorParticles() {
     animate();
 
     return () => {
+      window.removeEventListener("resize", resize);
+      window.removeEventListener("mousemove", mouseMove);
       document.body.removeChild(canvas);
     };
   }, []);
