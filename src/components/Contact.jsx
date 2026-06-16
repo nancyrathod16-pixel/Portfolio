@@ -8,11 +8,7 @@ function Contact() {
         <div className="contact-card">
           <h3>Email</h3>
           <p>
-          <a
-  href="https://mail.google.com/mail/?view=cm&fs=1&to=nancyrathod16@gmail.com&su=Portfolio%20Inquiry"
-  target="_blank"
-  rel="noreferrer"
->
+         <a href="mailto:nancyrathod16@gmail.com?subject=Portfolio Inquiry">
   nancyrathod16@gmail.com
 </a>
           </p>
