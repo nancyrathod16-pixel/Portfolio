@@ -6,9 +6,9 @@ function Skills() {
       <div className="skills-grid">
         <div className="skill-card">HTML</div>
         <div className="skill-card">CSS</div>
+        <div className="skill-card">Bootstrap</div>
         <div className="skill-card">JavaScript</div>
         <div className="skill-card">React.js</div>
-        <div className="skill-card">Bootstrap</div>
         <div className="skill-card">Git/Github</div>
         
       </div>
