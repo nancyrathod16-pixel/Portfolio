@@ -5,14 +5,16 @@ function Contact() {
 
       <div className="contact-container">
 
-        <div className="contact-card">
+     
+         <div className="contact-card">
           <h3>Email</h3>
           <p>
-         <a href="mailto:nancyrathod16@gmail.com?subject=Portfolio Inquiry">
+   <a href="mailto:nancyrathod16@gmail.com?subject=Portfolio Inquiry">
   nancyrathod16@gmail.com
 </a>
           </p>
-        </div>
+        </div> 
+
 
         <div className="contact-card">
           <h3>Phone</h3>

@@ -17,6 +17,14 @@ function Projects() {
             Property Management Dashboard with CRUD Operations.
           </p>
         </div>
+
+        <div className="project-card">
+          <h3>Weather Forecast Dashboard</h3>
+          <p>
+              Real-time weather forecasting using API integration.
+          </p>
+        </div>
+
       </div>
     </section>
   );
